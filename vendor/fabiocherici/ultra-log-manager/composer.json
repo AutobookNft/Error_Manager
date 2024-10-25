@@ -1,0 +1,36 @@
+{
+    "name": "fabiocherici/ultra-log-manager",
+    "description": "Ultra Log Manager is a library to standardize error and info logging for all Fabio's projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fabio\\UltraSecureUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fabio\\UltraLogManager\\Providers\\UltraLogManagerServiceProvider"
+            ]
+        },
+        "aliases": {
+            "UltraLog": "Fabio\\UltraLogManager\\Facades\\UltraLog"
+        }
+        
+    },
+    "authors": [
+        {
+            "name": "fabio cherici",
+            "email": "fabiocherici@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^11.29",
+        "illuminate/support": "*",
+        "monolog/monolog": "^3.7",
+        "fabiocherici/perfect-config-manager": "v1.1.0"
+    }
+}

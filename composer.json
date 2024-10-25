@@ -1,5 +1,5 @@
 {
-    "name": "fabio/errormanager",
+    "name": "fabiocherici/errormanager",
     "description": "ErrorManager is an advanced error management library for Laravel, designed to streamline and centralize all aspects of error handling. It provides an intuitive API for logging, custom exception management, user notifications, and error testing to simulate different failure scenarios. With multilingual support, flexible configuration, and integration-friendly features, CustomError ensures that developers can handle unexpected situations in a consistent and secure manner, improving the reliability and maintainability of Laravel applications. Whether it's detailed error logging, robust testing conditions, or seamless communication between frontend and backend during error states, CustomError has got you covered.",
     "type": "library",
     "license": "MIT",
@@ -18,6 +18,8 @@
     "require": {
         "illuminate/support": "^11.28",
         "laravel/framework": "^11.28",
-        "monolog/monolog": "^3.7"
+        "monolog/monolog": "^3.7",
+        "fabiocherici/ultra-log-manager": "^1.0.1"
+       
     }
 }

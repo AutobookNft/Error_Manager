@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f21eb0439956c0b9737559136304fc7e",
+    "content-hash": "ab7a90e27ec4d27be664d9b5f4bac30c",
     "packages": [
         {
             "name": "brick/math",
@@ -509,6 +509,110 @@
                 }
             ],
             "time": "2023-10-06T06:47:41+00:00"
+        },
+        {
+            "name": "fabiocherici/perfect-config-manager",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AutobookNft/ConfigManager.git",
+                "reference": "c7be860a1cac908255dc9c7a90f528362d327545"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AutobookNft/ConfigManager/zipball/c7be860a1cac908255dc9c7a90f528362d327545",
+                "reference": "c7be860a1cac908255dc9c7a90f528362d327545",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^11.29",
+                "laravel/framework": "^11.29",
+                "monolog/monolog": "^3.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fabio\\PerfectConfigManager\\Providers\\ConfigManagerServiceProvider",
+                        "Fabio\\PerfectConfigManager\\Providers\\ValidationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fabio\\ConfigManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fabio cherici",
+                    "email": "fabiocherici@gmail.com"
+                }
+            ],
+            "description": "A configuration management library designed for Laravel to streamline handling configuration values with validation support.",
+            "support": {
+                "issues": "https://github.com/AutobookNft/ConfigManager/issues",
+                "source": "https://github.com/AutobookNft/ConfigManager/tree/v1.1.0"
+            },
+            "time": "2024-10-23T16:35:57+00:00"
+        },
+        {
+            "name": "fabiocherici/ultra-log-manager",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AutobookNft/UltraLogManager.git",
+                "reference": "bc2c645e9c46b32a718ec4bfaf5c96208867e97e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AutobookNft/UltraLogManager/zipball/bc2c645e9c46b32a718ec4bfaf5c96208867e97e",
+                "reference": "bc2c645e9c46b32a718ec4bfaf5c96208867e97e",
+                "shasum": ""
+            },
+            "require": {
+                "fabiocherici/perfect-config-manager": "v1.1.0",
+                "illuminate/support": "*",
+                "laravel/framework": "^11.29",
+                "monolog/monolog": "^3.7",
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fabio\\UltraLogManager\\Providers\\UltraLogManagerServiceProvider"
+                    ]
+                },
+                "aliases": {
+                    "UltraLog": "Fabio\\UltraLogManager\\Facades\\UltraLog"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fabio\\UltraSecureUpload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fabio cherici",
+                    "email": "fabiocherici@gmail.com"
+                }
+            ],
+            "description": "Ultra Log Manager is a library to standardize error and info logging for all Fabio's projects.",
+            "support": {
+                "issues": "https://github.com/AutobookNft/UltraLogManager/issues",
+                "source": "https://github.com/AutobookNft/UltraLogManager/tree/1.0.1"
+            },
+            "time": "2024-10-25T06:56:53+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1056,16 +1160,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.28.1",
+            "version": "v11.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3ef5c8a85b4c598d5ffaf98afd72f6a5d6a0be2c"
+                "reference": "425054512c362835ba9c0307561973c8eeac7385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3ef5c8a85b4c598d5ffaf98afd72f6a5d6a0be2c",
-                "reference": "3ef5c8a85b4c598d5ffaf98afd72f6a5d6a0be2c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/425054512c362835ba9c0307561973c8eeac7385",
+                "reference": "425054512c362835ba9c0307561973c8eeac7385",
                 "shasum": ""
             },
             "require": {
@@ -1261,7 +1365,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-10-16T16:32:21+00:00"
+            "time": "2024-10-22T14:13:31+00:00"
         },
         {
             "name": "laravel/prompts",

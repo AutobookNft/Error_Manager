@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97
+class ComposerStaticInitab7a90e27ec4d27be664d9b5f4bac30c
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -125,6 +125,8 @@ class ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97
         array (
             'Fruitcake\\Cors\\' => 15,
             'Fabio\\errormanager\\' => 19,
+            'Fabio\\UltraSecureUpload\\' => 24,
+            'Fabio\\ConfigManager\\' => 20,
         ),
         'E' => 
         array (
@@ -292,8 +294,8 @@ class ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -384,6 +386,14 @@ class ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97
         'Fabio\\errormanager\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Fabio\\UltraSecureUpload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fabiocherici/ultra-log-manager/src',
+        ),
+        'Fabio\\ConfigManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fabiocherici/perfect-config-manager/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -508,9 +518,9 @@ class ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit38d7ef5cbc763ad43d7cba72e6450b97::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitab7a90e27ec4d27be664d9b5f4bac30c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitab7a90e27ec4d27be664d9b5f4bac30c::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitab7a90e27ec4d27be664d9b5f4bac30c::$classMap;
 
         }, null, ClassLoader::class);
     }

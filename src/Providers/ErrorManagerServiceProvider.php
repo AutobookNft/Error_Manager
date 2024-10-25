@@ -5,7 +5,7 @@ namespace Fabio\ErrorManager\Providers;
 use Error;
 use Fabio\ErrorManager\Contracts\ErrorDispatcherInterface;
 use Fabio\ErrorManager\Exception\ErrorDispatcher;
-use Fabio\UltraSecureUpload\ConfigManager;
+use Fabio\PerfectConfigManager\ConfigManager;
 use Illuminate\Support\ServiceProvider;
 
 class ErrorManagerServiceProvider extends ServiceProvider
