@@ -124,7 +124,7 @@ class ComposerStaticInitab7a90e27ec4d27be664d9b5f4bac30c
         'F' => 
         array (
             'Fruitcake\\Cors\\' => 15,
-            'Fabio\\errormanager\\' => 19,
+            'Fabio\\ultraerrormanager\\' => 19,
             'Fabio\\UltraSecureUpload\\' => 24,
             'Fabio\\ConfigManager\\' => 20,
         ),
@@ -383,7 +383,7 @@ class ComposerStaticInitab7a90e27ec4d27be664d9b5f4bac30c
         array (
             0 => __DIR__ . '/..' . '/fruitcake/php-cors/src',
         ),
-        'Fabio\\errormanager\\' => 
+        'Fabio\\ultraerrormanager\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

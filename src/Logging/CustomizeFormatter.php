@@ -1,6 +1,6 @@
 <?php
 
-namespace Fabio\ErrorManager\Logging;
+namespace Fabio\UltraErrorManager\Logging;
 
 use Monolog\Handler\StreamHandler;
 

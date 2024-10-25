@@ -1,7 +1,7 @@
 <?php
 
 // app/Logging/CustomFormatter.php
-namespace Fabio\ErrorManager\Logging;
+namespace Fabio\UltraErrorManager\Logging;
 
 use Monolog\Formatter\LineFormatter;
 use Monolog\LogRecord;
@@ -12,7 +12,7 @@ use Monolog\LogRecord;
  * This formatter extends Monolog's LineFormatter to include microseconds in the log timestamp.
  * This is useful for tracking highly granular log events in real-time applications.
  *
- * @package Fabio\ErrorManager\Logging
+ * @package Fabio\UltraErrorManager\Logging
  */
 class CustomFormatter extends LineFormatter
 {

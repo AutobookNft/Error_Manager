@@ -1,6 +1,6 @@
 <?php
 
-namespace Fabio\ErrorManager\Mail;
+namespace Fabio\UltraErrorManager\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

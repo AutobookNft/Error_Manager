@@ -1,14 +1,14 @@
 <?php
 
-namespace Fabio\ErrorManager\Providers;
+namespace Fabio\UltraErrorManager\Providers;
 
 use Error;
-use Fabio\ErrorManager\Contracts\ErrorDispatcherInterface;
-use Fabio\ErrorManager\Exception\ErrorDispatcher;
+use Fabio\UltraErrorManager\Contracts\ErrorDispatcherInterface;
+use Fabio\UltraErrorManager\Exception\ErrorDispatcher;
 use Fabio\PerfectConfigManager\ConfigManager;
 use Illuminate\Support\ServiceProvider;
 
-class ErrorManagerServiceProvider extends ServiceProvider
+class UltraErrorManagerServiceProvider extends ServiceProvider
 {
     public function register()
     {

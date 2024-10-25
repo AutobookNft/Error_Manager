@@ -1,9 +1,6 @@
 <?php
 
-use Fabio\ErrorManager\Logging\CustomizeFormatter;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\SyslogUdpHandler;
-
+use Fabio\UltraErrorManager\Logging\CustomizeFormatter;
 
 return [
 
@@ -41,7 +38,7 @@ return [
         
         'error_manager' => [
             'driver' => 'daily',
-            'path' => storage_path('logs/error_manager.log'),
+            'path' => storage_path('logs/ultra_error_manager.log'),
             'level' => 'debug',
             'tap' => [CustomizeFormatter::class], // Mantienilo solo se necessario per formattare i log
             'days' => 7,  // Numero di giorni per cui conservare i log

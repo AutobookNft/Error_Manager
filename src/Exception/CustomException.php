@@ -1,6 +1,6 @@
 <?php
 
-namespace Fabio\ErrorManager\Exception;
+namespace Fabio\UltraErrorManager\Exception;
 
 use Exception;
 

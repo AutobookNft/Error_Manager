@@ -63,7 +63,7 @@ return array(
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'GrahamCampbell\\ResultType\\' => array($vendorDir . '/graham-campbell/result-type/src'),
     'Fruitcake\\Cors\\' => array($vendorDir . '/fruitcake/php-cors/src'),
-    'Fabio\\errormanager\\' => array($baseDir . '/src'),
+    'Fabio\\ultraerrormanager\\' => array($baseDir . '/src'),
     'Fabio\\UltraSecureUpload\\' => array($vendorDir . '/fabiocherici/ultra-log-manager/src'),
     'Fabio\\ConfigManager\\' => array($vendorDir . '/fabiocherici/perfect-config-manager/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),

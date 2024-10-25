@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'fabio/errormanager',
+        'name' => 'fabio/ultraerrormanager',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '79c430e0ec5b11d8c694f1e3fd6f7786c3019c94',
@@ -73,7 +73,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'fabio/errormanager' => array(
+        'fabio/ultraerrormanager' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '79c430e0ec5b11d8c694f1e3fd6f7786c3019c94',

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fabio\ErrorManager\Contracts;
+namespace Fabio\UltraErrorManager\Contracts;
 
 interface ErrorCodeInterface
 {

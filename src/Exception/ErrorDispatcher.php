@@ -1,13 +1,14 @@
 <?php
 
-namespace Fabio\ErrorManager\Exception;
+namespace Fabio\UltraErrorManager\Exception;
 
 use Fabio\PerfectConfigManager\ConfigManager;
+use Fabio\UltraErrorManager\Contracts\ErrorDispatcherInterface;
+use Fabio\UltraErrorManager\Exception\CustomException;
+use Fabio\UltraErrorManager\Mail\ErrorOccurredMailable;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
-use Fabio\ErrorManager\Mail\ErrorOccurredMailable;
-use Fabio\ErrorManager\Contracts\ErrorDispatcherInterface;
 use Fabio\UltraLogManager\Facades\UltraLog;
 use Throwable;
 
